@@ -1,0 +1,25 @@
+body
+{ 
+    font-size: 14px ;
+    font-family: Poppins; 
+}
+ 
+#page-wrap
+{ 
+    width: 500px; 
+    margin: 0 auto;
+}
+ 
+h1
+{ 
+    margin: 25px 0; 
+    font-size: 18px ;
+    font-family: Poppins; 
+    text-transform: uppercase; 
+    letter-spacing: 3px; 
+}
+ 
+#results {
+    font-size: 44px ;
+    font-family: Poppins;
+}

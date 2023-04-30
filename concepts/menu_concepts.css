@@ -1,0 +1,379 @@
+*{
+    margin:0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f5f3ee;
+}
+.main{
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../media/concept.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    position: absolute;
+    width: 1400px;
+    height: 100px;
+    margin: auto;
+    left: 350px;
+}
+.icon{
+    position: absolute;
+    width: 10%;
+    float: left;
+    height: auto;
+    margin-top:3%;
+}
+.logo{
+    width: 70%;
+    float: center;
+    height: auto;
+}
+.menu{
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    margin-top: 2.2%;
+    margin-left: 30%;
+}
+ul{
+    float: left;
+    display:flex;
+    justify-content: center;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 18px;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+    letter-spacing: 1px;
+}
+ul li a:hover{
+    color: #DAA520;
+}
+ul li ul{
+    width: 200%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    display: block; 
+}
+ul li ul li a{
+    padding: 8px 18px;
+    position: relative;
+    font-size: 17px;
+}
+ul li ul li a:hover {
+    color: #DAA520;
+}
+ul li ul{
+    visibility:hidden;
+    transition: 0.5s ease-in-out;
+}
+ul li:hover ul{
+    visibility:visible;
+    transition: 0.5s ease-in-out;
+}
+.lin{
+    left: -33%;
+    text-align: center;
+}
+.con{
+    padding-right: 7%;
+}
+
+.page{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.page h1{
+    color: white;
+    font-size: 400%;
+    font-family: 'Poppins';
+    text-align: center;
+}
+.page .par{
+    padding-top: 3%;
+    text-align: center;
+    color: white;
+    font-size: 170%;
+    font-family: 'Poppins';
+    padding-bottom: 2%;
+}
+.button{
+    position: absolute;
+    top:63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    font-family: 'Poppins';
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+.btn:hover{
+    background-color: #DAA520;
+}
+
+.perfume{
+    margin-top: 6%;
+}
+.perfume .title{
+    background: linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../media/perfume_factory.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.perfume h1{
+    text-align: center;
+    font-family: 'Poppins';
+    color:#fff;
+    font-size: 500%;
+    font-weight:bold;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.perfume .text{
+    background-image: linear-gradient(315deg, #F6D9AC 0%, #FBEBC9 74%);
+}
+.perfume .zone{
+    color:#000;
+    text-align: center;
+    font-size: 140%;
+    font-style: italic;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: 'Poppins';
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.perfume-table{
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    width: 80%;
+    left: 24px;
+    margin-left:1.5%;
+    height: auto;
+}
+.perfume-video{
+    height: 500px;
+    width: 889px;
+}
+.perfume-text{
+    background-image: linear-gradient(315deg, #F6D9AC 0%, #C0A78E 74%);
+    height: 500px;
+    width: 861px;
+}
+.perfume-text h1{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10%;
+    transform: translate(0,-50%);
+    color:#fff;
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Poppins';
+}
+.perfume-text .zone{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 20%;
+    transform: translate(0,-50%);
+    color:#fff;
+    text-align: center;
+    font-size: 120%;
+    font-style: italic;
+    font-family: 'Poppins';
+}
+
+.clothes{
+    margin-top: 6%;
+}
+.clothes .title{
+    background: linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../media/clothes_site.jpg);
+    background-size: 60%;
+    background-position: center;
+    align-items: center;
+}
+.clothes h1{
+    text-align: center;
+    font-family: 'Poppins';
+    color:#fff;
+    font-size: 500%;
+    font-weight:bold;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.clothes .text{
+    background-image: linear-gradient(326deg, #c7a9a7 0%, 	#7c6460 74%);
+    
+}
+.clothes .zone{
+    color:#fff;
+    text-align: center;
+    font-size: 140%;
+    font-style: italic;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: 'Poppins';
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.clothes-table{
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    width: 80%;
+    left: 26px;
+    margin-left:1.5%;
+    height: auto;
+}
+.clothes-table .image{
+    height: 600px;
+    width: 900px;
+    background-image: url(../media/petite_noir.jpg);
+    background-size: 95%;
+    background-position: center;
+    align-items: center;
+}
+.clothes-text{
+    background-image: linear-gradient(326deg,#a3837a 0%, #3e3e3e 90%);
+    height: 600px;
+    width: 861px;
+}
+.clothes-text h1{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10%;
+    transform: translate(0,-50%);
+    color:#fff;
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Poppins';
+}
+.clothes-text .zone{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 20%;
+    transform: translate(0,-50%);
+    color:#fff;
+    text-align: center;
+    font-size: 120%;
+    font-style: italic;
+    font-family: 'Poppins';
+}
+
+.modeling{
+    margin-top: 6%;
+}
+.modeling .title{
+    background: linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../media/modeling_site.jpg);
+    background-size: cover;
+    background-position: top;
+    align-items: center;
+}
+.modeling h1{
+    text-align: center;
+    font-family: 'Poppins';
+    color:#fff;
+    font-size: 500%;
+    font-weight:bold;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.modeling .text{
+    background-image: linear-gradient(315deg, #C19770 0%, #A67A5B 74%);
+}
+.modeling .zone{
+    color:#fff;
+    text-align: center;
+    font-size: 140%;
+    font-style: italic;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: 'Poppins';
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.modeling-table{
+    margin-top: 4%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    width: 80%;
+    left: 24px;
+    margin-left:1.5%;
+    height: auto;
+}
+.modeling-video{
+    height: 500px;
+    width: 889px;
+}
+.modeling-text{
+    background-image: linear-gradient(315deg, #FAF0DC 0%, #E8DCB5 74%);
+    height: 500px;
+    width: 861px;
+}
+.modeling-text .zone{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 30%;
+    transform: translate(0,-50%);
+    color:#000;
+    text-align: center;
+    font-size: 300%;
+    font-style: italic;
+    font-family: 'Poppins';
+}
+
+.footer{
+    width:100%;
+    margin-top: 3%;
+}
+.footer hr{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+    color: rgb(134, 134, 134);
+}
+.footer div{
+    padding:1.5% 0%;
+}
+.footer p{
+    text-align: center;
+    font-family: 'Poppins';
+    size:100%;
+    color: rgb(119, 119, 119);
+    font-weight: bold;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 0.8s all ease;
+  }
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}

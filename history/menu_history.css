@@ -1,0 +1,286 @@
+*{
+    margin:0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f5f3ee;
+}
+.main{
+    background: linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../media/coco_main.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    position: absolute;
+    width: 1400px;
+    height: 100px;
+    margin: auto;
+    left: 350px;
+}
+.icon{
+    position: absolute;
+    width: 10%;
+    float: left;
+    height: auto;
+    margin-top:3%;
+}
+.logo{
+    width: 70%;
+    float: center;
+    height: auto;
+}
+.menu{
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    margin-top: 2.2%;
+    margin-left: 30%;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+}
+ul li{
+    list-style-type: none;
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 18px;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    font-family: 'Poppins';
+    font-weight: bold;
+    transition: 0.5s ease-in-out;
+    letter-spacing: 1px;
+}
+ul li a:hover{
+    color: #DAA520;
+    
+}
+ul li ul{
+    width: 200%;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    display: block; 
+}
+ul li ul li a{
+    padding: 8px 18px;
+    position: relative;
+    font-size: 17px; 
+}
+ul li ul li a:hover {
+    color: #DAA520;
+}
+ul li ul{
+    visibility:hidden;
+    transition: 0.5s ease-in-out;
+}
+ul li:hover ul{
+    visibility:visible;
+    transition: 0.5s ease-in-out;
+}
+.lin{
+    left: -33%;
+    text-align: center;
+}
+.con{
+    padding-right: 7%;
+}
+
+.page{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.page h1{
+    color: rgb(255, 255, 255);
+    font-size: 400%;
+    font-family: 'Poppins';
+    letter-spacing: 1.2%;
+    text-align: center;
+}
+.page .par{
+    padding-top: 3%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 180%;
+    font-family: 'Poppins';
+    padding-bottom: 2%;
+}
+.button{
+    position: absolute;
+    top:63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    font-family: 'Poppins';
+    padding: 10px 30px;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.4s ease-in-out;
+}
+.btn:hover{
+    background-color: #eea849;
+}
+
+.history{
+    background: linear-gradient(to right, #c7a9a7, #e5d9d3);
+    margin-top: 3%;
+    size: 100%;
+}
+.history div{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.history .zone{
+    color:#000;
+    text-align: center;
+    font-size: 140%;
+    font-style: italic;
+    font-family: 'Poppins';
+}
+
+.table{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    width: 50%;
+    left: 24px;
+    margin-left:3%;
+    height: auto;
+}
+.his{
+    background: linear-gradient(to top, rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../media/clothes_history.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 1150px;
+}
+.his-text{
+    background-image: linear-gradient(326deg, 	#3e3e3e 0%, #a3837a 75%);
+    height: 400px;
+    width: 570px;
+}
+.his-text .zone{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 35%;
+    transform: translate(0,-50%);
+    color:#fff;
+    text-align: center;
+    font-size: 160%;
+    font-style: italic;
+    font-family: 'Poppins';
+}
+
+.coco{
+    margin-top: 4%;
+}
+.coco .title{
+    background: linear-gradient(to top, rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../media/chanel_seco.jpg);
+    background-size: cover;
+    background-position: center;
+    align-items: center;
+}
+.coco h1{
+    text-align: center;
+    font-family: 'Poppins';
+    color:#fff;
+    font-size: 500%;
+    font-weight:bold;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.coco .text{
+    background-image: linear-gradient(315deg, #ffffff 0%, #9f8787 74%);
+    
+}
+.coco .zone{
+    color:#000;
+    text-align: center;
+    font-size: 140%;
+    font-style: italic;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-family: 'Poppins';
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.table-coco{
+    margin-top: 3%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 20px;
+    width: 50%;
+    left: 24px;
+    margin-left:3%;
+    height: auto;
+}
+.coco-foto{
+    background: linear-gradient(to top, rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../media/coco.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 500px;
+}
+.info-coco-text{
+    background-image: linear-gradient(326deg, #c7a9a7 0%, #7c6460 74%);
+    height: 500px;
+    width: 1200px;
+}
+.info-coco-text .zone{
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 20%;
+    transform: translate(0,-50%);
+    color:#fff;
+    text-align: center;
+    font-size: 130%;
+    font-style: italic;
+    font-family: 'Poppins';
+}
+
+.footer{
+    width:100%;
+    margin-top: 3%;
+}
+.footer hr{
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+    color: rgb(134, 134, 134);
+}
+.footer div{
+    padding:1.5% 0%;
+}
+.footer p{
+    text-align: center;
+    font-family: 'Poppins';
+    size:100%;
+    color: rgb(119, 119, 119);
+    font-weight: bold;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 0.8s all ease;
+  }
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" type="text/css" href="menu-quiz.css?v=<?php echo time(); ?>">
+     <link rel="shortcut icon" type="image/png" href="../media/icon.png">
+     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+     <script src="../java/java.js"></script>
+     <title>Quiz - CHANEL</title>
+</head>
+<style>
+    ::-webkit-scrollbar{
+        width: 10px;
+    }
+    ::-webkit-scrollbar-track{
+        background: #f5f3ee;
+    }
+    ::-webkit-scrollbar-thumb{
+        background: #fff;
+        border-radius: 10px;
+    } 
+    ::-webkit-scrollbar-thumb:hover{
+        background: #555;
+    }   
+</style>
+<body>
+    <header class="navbar">
+        <div class="icon">
+            <a href="../index.html"><img class="logo" src="../media/logosite_alt.png"></a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li class="con"><a href="../history/history.html#history">ISTORIC</a></li>
+                <li class="con"><a href="../history/history.html#coco">COCO CHANEL</a></li>  
+                <li class="con"><a href="../concepts/concepts.html">CONCEPTE</a>
+                    <ul>
+                        <li><a href="../concepts/concepts.html#perfume" class="lin">PARFUMERIE</a></li>
+                        <li><a href="../concepts/concepts.html#clothes" class="lin">VESTIMENTAȚIE</a></li>
+                        <li><a href="concepts/concepts.html#modeling" class="lin">MODELING</a></li>
+                    </ul>
+                </li>
+                <li class="con"><a href="../quiz/quiz.html">QUIZ</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <section class="main">
+        <div class="page">
+            <h1>QUIZ</h1>
+            <p class="par">...este timpul pentru un mini-quiz...</p>
+        </div>
+    </section>
+
+    <section class="form reveal" >
+        <div class="form-text">
+            <form method="POST" action="./quiz.php" class="zone">
+                <label for="1">Cine a fost Coco Chanel?</label>
+                <br>
+                        <input type="radio" id="1" name="res1" value="A">Actriță<br>
+                        <input type="radio" id="1" name="res1" value="B">Creatoare de modă<br>
+                        <input type="radio" id="1" name="res1" value="C">Scriitoare<br>
+                        <input type="radio" id="1" name="res1" value="D">Cântăreață
+                <br><br><br>
+                <label for="2">Ce este Chanel?</label>
+                <br>
+                        <input type="radio" id="2" name="res2" value="A">Casă de modă<br>
+                        <input type="radio" id="2" name="res2" value="B">Firmă de papuci<br>
+                        <input type="radio" id="2" name="res2" value="C">Parfumerie<br>
+                        <input type="radio" id="2" name="res2" value="D">Festival
+                <br><br><br>
+                <label for="3">Cum se numeste rochia ce a facut-o pe Coco Chanel celebra in toata lumea?</label>
+                <br>
+                        <input type="radio" id="3" name="res3" value="A">"Petite black"<br>
+                        <input type="radio" id="3" name="res3" value="B">"White & Black"<br>
+                        <input type="radio" id="3" name="res3" value="C">"Francais"<br>
+                        <input type="radio" id="3" name="res3" value="D">"Petite noir"
+                <br><br><br>
+                <label for="4">Care este cel mai bine cotat parfum de la Chanel?</label>
+                <br>
+                        <input type="radio" id="4" name="res4" value="A">Chanel No.9<br>
+                        <input type="radio" id="4" name="res4" value="B">Sauvage<br>
+                        <input type="radio" id="4" name="res4" value="C">Chanel No.5<br>
+                        <input type="radio" id="4" name="res4" value="D">Black Opium
+                <br><br><br>
+                <label for="5">Ce concepte au mai ramas în vestimentația casei de modă?</label>
+                <br>
+                        <input type="radio" id="5" name="res5" value="A">Influența slava<br>
+                        <input type="radio" id="5" name="res5" value="B">Materialul Jersey<br>
+                        <input type="radio" id="5" name="res5" value="C">Implantarea de bijuterii si pietre pretioase in haine<br>
+                        <input type="radio" id="5" name="res5" value="D">Toate enumerate mai sus
+                <br><br><br>
+                <input type="submit" value="Submit" class="btn">
+            </form>
+        </div>  
+    </section>
+</body>
+</html>
